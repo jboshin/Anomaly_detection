@@ -3,5 +3,7 @@
 ## 判斷規則
 以五分鐘為一個區間，在此區間中1分鐘內CPU高於80%以上，連續出現3次即判斷為故障。
 ## 程式說明
-* csv_chang.py
+* CSV_DataCleansing.py
   * 資料清洗
+* catch in 5 min over 3 event.py
+ * 抓取故障機台 
