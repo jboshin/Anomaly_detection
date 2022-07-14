@@ -5,7 +5,7 @@ import fnmatch
 from pandas.tseries.offsets import Minute
 from pandas.tseries.offsets import Second
 
-# 尋找所有csv檔
+# 載入所有csv檔
 #f = glob.glob(r'C:\Users\Mirella\Documents\處理資料\5分內連續\all_in5_com\data3\*.csv') 
 read_path= r"C:\Users\Mirella\Desktop\ASE_Log07_1_cpu\memory"
 os.chdir(read_path)
@@ -24,6 +24,7 @@ def get_frequency(data):
 os.chdir("C:\\Users\\Mirella\\Desktop\\ASE_Log07_1_cpu")
 os.getcwd()
 
+# 寫入檔案
 with open("./over3/memory_over3countin5min_1.csv", 'w',encoding="utf-8") as n:
     print("num , ComputerName , over 3 count in 5 min")
     n.write("num , ComputerName , over 3 count in 5 min\n")
