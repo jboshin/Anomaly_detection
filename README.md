@@ -6,4 +6,4 @@
 * CSV_DataCleansing.py
   * 資料清洗
 * catch in 5 min over 3 event.py
- * 抓取異常機台 
+  * 抓取異常機台並存入新檔 
